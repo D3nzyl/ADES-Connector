@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="./styles/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-10 col-lg-8 mx-auto">
+                <div id="logo-container">
+                    <img id="google" src="./img/google.png" alt="GOOGLE">
+                    <div id="logoText">Virtual Queue Project for ADES</div>
+                </div>
+            </div>  
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 mx-auto">
+               <div id="desc-container">
+                    <div class="col-sm-12 col-md-10 mx-auto">
+                        <h3 id="desc-header">About The Project</h3>
+                        This is a virtual queue project I have created for one of my modules, Application Development Studio (ADES), 
+                        in Singapore Polytechnic. In an attempt to reduce physical resources taken up by a physical queue, companies 
+                        look to virtual queue as a solution for services that have substantial queueing time (e.g. dental appointment, 
+                        airport check-ins, fitting rooms). For this project, I have attempted to replicate the UI of Google. Queue IDs 
+                        are set to container 10 alphanumeric characters, Customer and Company IDs are set to contain 10 numeric characters.</br></br>
+                        <h5>Through the Customer portal</h5>
+                        <ul>
+                            <li>Join a virtual queue</li>
+                            <li>Check how many people are in a queue</li>
+                            <li>Check how many people are ahead of them in a queue</li>
+                        </ul>
+                        <h5>Through the Arrival Rate portal</h5>
+                        <ul>
+                            <li>Visualize the arrival rate of queues so that they can make analytical judgement</li>
+                        </ul>
+                    </div>
+               </div>
+            </div>
+            <div class="col-sm-12 col-md-6 mx-auto">
+                <a href="https://d3nzyl.github.io/ADES-Customer/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">
+                    <div class="button blue">
+                        <div id="customer"><h3>Customer</h3>(Join & Check Queues)</div>
+                    </div>
+                </a>
+                <a href="https://ades-fsp.github.io/virtual-queue-website-2b03-group-1/" target="_blank" rel="noopener noreferrer" style="text-decoration:none">
+                    <div class="button red">
+                        <div id="arrivalRate"><h3>Arrival Rate</h3>(Check Arrival Rate of Queues)</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
